@@ -1,0 +1,28 @@
+{
+  "name": "opentunnel-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for OpenTunnel - expose local ports through a blind TLS tunnel (wraps the @opentunnel/client SDK)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/e2e.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "opentunnel",
+    "tunnel",
+    "opencode"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@opentunnel/client": "^0.6.2",
+    "effect": "^4.0.0",
+    "zod": "^4.6.7"
+  }
+}
